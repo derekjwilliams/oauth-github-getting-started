@@ -6,8 +6,9 @@ https://www.honeybadger.io/blog/oauth-nodejs-javascript/  See this artice to add
 
 ## Changes
 
-The Github id and secret are now in the .env file, see the auth2-node-server/README.md
+* The Github id and secret are now in the .env file, see the auth2-node-server/README.md
 
+* Removed the silly dependency on bootstrap
 
 
 ## Installing
