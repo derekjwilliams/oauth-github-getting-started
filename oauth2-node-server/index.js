@@ -1,9 +1,10 @@
 const express = require("express");
 const axios = require("axios");
 var cors = require("cors");
+// require('dotenv').config();
 
-const CLIENT_ID = "97f7c4390006237e1758";
-const CLIENT_SECRET = "d9dddf0e69b98198b237ca12ad1a2d1197bdb44b";
+const CLIENT_ID = process.env.GITHUB_ID;
+const CLIENT_SECRET = process.env.GITHUB_SECRET;
 const GITHUB_URL = "https://github.com/login/oauth/access_token";
 
 const app = express();
