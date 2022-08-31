@@ -1,3 +1,5 @@
+See ../README.md for more details
+
 To run:
 
 Add a .env file, to have the contents:
